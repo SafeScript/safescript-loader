@@ -1,6 +1,6 @@
 {
   "name": "safescript-loader",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "description": "Browser auto-loader for <script type=\"safescript\"> tags",
   "main": "index.js",
   "browser": "safescript-loader.js",
@@ -8,11 +8,17 @@
     "test": "node test.js",
     "build": "node build.js"
   },
-  "keywords": ["safescript", "browser", "loader", "sandbox", "safe"],
+  "keywords": [
+    "safescript",
+    "browser",
+    "loader",
+    "sandbox",
+    "safe"
+  ],
   "author": "Gregory Magarshak",
   "license": "MIT",
   "peerDependencies": {
-    "safescript": ">=0.2.0"
+    "safescript": ">=1.2.0"
   },
   "repository": {
     "type": "git",
